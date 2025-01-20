@@ -110,7 +110,7 @@ async function main() {
             {
                 id: "7",
                 name: "Yunia Daya Sintani",
-                email: "marvinsetiawan@gmail.com",
+                email: "ybsintani@gmail.com",
                 position: "ALUMNI",
                 image: null,
                 kampus: "IAKN_PALANGKA_RAYA",
@@ -142,7 +142,7 @@ async function main() {
                 alamat: "Palangkaraya",
             },
             {
-                id: "8",
+                id: "9",
                 name: "Dea",
                 email: "deapalangkaraya@gmail.com",
                 position: "MAHASISWA",
