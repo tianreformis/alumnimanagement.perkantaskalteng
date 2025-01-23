@@ -133,7 +133,6 @@ export default function EditEmployeeForm({ employee, onClose, onUpdate }: EditEm
                 <SelectItem value="POLTEKKES_PALANGKA_RAYA">POLTEKKES_PALANGKA_RAYA</SelectItem>
                 <SelectItem value="AKBID_BETANG_ASI_RAYA">AKBID_BETANG_ASI_RAYA</SelectItem>
                 <SelectItem value="OTHER">OTHER</SelectItem>
-                <SelectItem value=""> </SelectItem>
               </SelectContent>
             </Select>
           </div>
