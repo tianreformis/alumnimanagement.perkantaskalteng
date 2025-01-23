@@ -74,7 +74,7 @@ export default function EditEmployeeForm({ employee, onClose, onUpdate }: EditEm
 
   return (
     <Dialog open={true} onOpenChange={onClose}>
-      <DialogContent className='overflow-y-scroll'>
+      <DialogContent className='overflow-y-scroll md:h-[90%] lg:h-full xl:h-full'>
         <DialogHeader>
           <DialogTitle>Edit Data</DialogTitle>
         </DialogHeader>
