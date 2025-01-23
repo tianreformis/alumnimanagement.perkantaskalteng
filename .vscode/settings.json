@@ -3,7 +3,6 @@
     "terminal.integrated.fontSize":18,
     "editor.fontSize":20,
     "window.zoomLevel": -1,
-    "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
     "terminal.explorerKind": "integrated",
     
 }
