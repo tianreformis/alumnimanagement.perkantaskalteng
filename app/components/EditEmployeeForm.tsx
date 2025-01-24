@@ -74,7 +74,7 @@ export default function EditEmployeeForm({ employee, onClose, onUpdate }: EditEm
 
   return (
     <Dialog open={true} onOpenChange={onClose}>
-      <DialogContent className='overflow-y-scroll'>
+      <DialogContent className='overflow-y-scroll md:h-[90%] lg:h-full xl:h-full'>
         <DialogHeader>
           <DialogTitle>Edit Data</DialogTitle>
         </DialogHeader>
@@ -133,7 +133,6 @@ export default function EditEmployeeForm({ employee, onClose, onUpdate }: EditEm
                 <SelectItem value="POLTEKKES_PALANGKA_RAYA">POLTEKKES_PALANGKA_RAYA</SelectItem>
                 <SelectItem value="AKBID_BETANG_ASI_RAYA">AKBID_BETANG_ASI_RAYA</SelectItem>
                 <SelectItem value="OTHER">OTHER</SelectItem>
-                
               </SelectContent>
             </Select>
           </div>
