@@ -35,7 +35,7 @@ export default function SignInPage() {
                 required
                 className="w-full rounded-md bg-white px-3.5 py-2 text-sm outline-none ring-1 ring-inset ring-zinc-300 hover:ring-zinc-400 focus:ring-[1.5px] focus:ring-zinc-950 data-[invalid]:ring-red-400"
               />
-              <Clerk.FieldError className="block text-sm text-red-400" />
+              <Clerk.FieldError className="block text-xs text-red-400" />
             </Clerk.Field>
             <Clerk.Field name="password" className="space-y-2">
               <Clerk.Label className="text-sm  font-medium text-zinc-950">Password</Clerk.Label>
@@ -44,7 +44,7 @@ export default function SignInPage() {
                 required
                 className="w-full rounded-md bg-white px-3.5 py-2 text-sm outline-none ring-1 ring-inset ring-zinc-300 hover:ring-zinc-400 focus:ring-[1.5px] focus:ring-zinc-950 data-[invalid]:ring-red-400"
               />
-              <Clerk.FieldError className="block text-sm text-red-400" />
+              <Clerk.FieldError className="block text-xs text-red-400" />
             </Clerk.Field>
           </div>
           <SignIn.Action
